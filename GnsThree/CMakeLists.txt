@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (GnsThree "GnsThree.cpp" "GnsThree.h" "Entities/Player.cpp" "Entities/Player.h")
+add_executable (GnsThree "GnsThree.cpp" "GnsThree.h" "Entities/Player.cpp" "Entities/Player.h" "Entities/Enemy.cpp" "Entities/Enemy.h")
 add_custom_command(
 	TARGET ${PROJECT_NAME} POST_BUILD 
     COMMAND ${CMAKE_COMMAND} -E copy_directory

@@ -3,6 +3,6 @@
 
 #pragma once
 
-#include <iostream>
 #include "raylib.h"
 #include "Entities/Player.h"
+#include "Entities/Enemy.h"

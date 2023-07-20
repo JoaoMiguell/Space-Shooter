@@ -1,7 +1,6 @@
 #pragma once
 #include "raylib.h"
 #include <vector>
-#include <iostream>
 
 class Player {
 public:
@@ -9,6 +8,7 @@ public:
 	Rectangle ps{}; // p: position - s: size
 	int velocity{ 2 };
 	std::vector<Rectangle> projectiles{};
+	int damage{ 5 };
 
 	Player(int x, int y);
 	void Attack();
